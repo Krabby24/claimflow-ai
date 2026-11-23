@@ -1,0 +1,24 @@
+# Secrets / private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+credentials.json
+secrets.json
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Temp/output
+*.log
+.tmp/
+tmp/
