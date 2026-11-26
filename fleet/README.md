@@ -1,5 +1,7 @@
-# Fleet export snapshots
+# Real Fleet exports — pending
 
-Store **real exports from the group's integrated Fleet project** here once available and reviewed. Keep their native directory/file layout; do not fabricate `config.json` or `tools.json` merely to populate the folder.
+The group's Fleet Orchestrator and four subagents are configured and have been tested, but the **actual Fleet ZIP has not yet been retrieved and inspected** as of 26 November 2026.
 
-Before committing, inspect the export for credentials, tokens and sensitive data. Verify the professor's required `AGENTS.md`, `config.json`, `SKILL.md` and `tools.json`, the configured input/trigger/tool/Slack integration, and that the files match the tested demo.
+Store an exported ZIP or its extracted contents here only **after** confirming no secrets, OAuth information or private user data are present. Do not invent `AGENTS.md`, `config.json`, `SKILL.md` or `tools.json` from assumptions. Preserve the export's own paths/names and README, even when they differ from the flat list in the lecturer's brief.
+
+See [`EXPORT_CHECKLIST.md`](EXPORT_CHECKLIST.md). Document external Cloudflare Worker and KV, Liquid AI API setup, Google Docs/Sheets IDs and Slack integrations separately; the Fleet export alone will not recreate them. Never commit actual bearer/API tokens.

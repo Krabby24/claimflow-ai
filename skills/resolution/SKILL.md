@@ -1,6 +1,6 @@
 # Claims Resolution & Slack — draft skill
 
-**Owner:** Member 4. **Status:** Proposal; Slack connection to verify.
+**Owner:** Member 4. **Status:** Repository-maintained draft; corresponding Fleet subagent has been configured and tested. This file is NOT a native Fleet export.
 
 ## Goal
 Recommend the next permissible step for a claim using approved policy, evidence assessment and appropriate human review.
@@ -18,3 +18,7 @@ Missing evidence, inconsistent claim details, unauthorized payment request, ambi
 
 ## Handoff
 A proposed action and recorded human decision to the Orchestrator/Case Ledger.
+
+## Verified deployment note (26 November)
+
+The Fleet `claim-resolution` subagent was invoked for CLM-0004, used approved Case_Memory `MEM-0001` revision 0.2 and draft Google Docs policy context to recommend `request_more_evidence`. Slack reply was posted later but has **not** been ingested by another Fleet run. This file remains a repository draft.

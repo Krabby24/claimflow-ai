@@ -1,0 +1,12 @@
+# Example only. Copy and customise OUTSIDE the repository.
+# Never commit credentials or environment-specific secrets.
+name = "claimflow-systemone-mcp"
+main = "src/index.js"
+compatibility_date = "2026-11-25"
+
+[[kv_namespaces]]
+binding = "EVIDENCE_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+# Configure LIQUID_API_KEY and MCP_ACCESS_TOKEN using Cloudflare secrets.
+# Do not put secret values in [vars] or this file.

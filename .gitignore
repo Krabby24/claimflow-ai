@@ -1,12 +1,22 @@
-# Secrets / private credentials
+# Private credentials / authentication
 .env
 .env.*
 !.env.example
+.dev.vars
+.dev.vars.*
 *.pem
 *.p12
 *.key
 credentials.json
 secrets.json
+*oauth*token*.json
+*api*key*.txt
+*access*token*.txt
+
+# Cloudflare local/state
+.wrangler/
+worker/wrangler.toml
+worker/.dev.vars*
 
 # Python and editors
 __pycache__/
@@ -22,3 +32,11 @@ venv/
 *.log
 .tmp/
 tmp/
+
+# Do not commit raw exports/screenshots or third-party visual demos
+private/
+raw-evidence/
+*.credentials.zip
+*.secrets.zip
+*broken_bulb*.jpg
+istockphoto-*.jpg

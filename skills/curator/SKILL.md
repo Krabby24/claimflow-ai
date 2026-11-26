@@ -1,6 +1,6 @@
 # Memory & Knowledge Curator — draft skill
 
-**Owner:** Member 5. **Status:** Proposal; not deployed.
+**Owner:** Member 5. **Status:** Repository-maintained draft; corresponding Fleet subagent has been configured and tested. This file is NOT a native Fleet export.
 
 ## Goal
 Convert reviewed process failures and human corrections into reusable instructions without letting untrusted cases silently change operational rules.
@@ -15,3 +15,7 @@ Convert reviewed process failures and human corrections into reusable instructio
 
 ## Handoff
 Proposed diff, issue ID, supporting trace, review decision, version and test outcomes.
+
+## Verified deployment note (26 November)
+
+Curator reviewed `KFL-0001`, found missing duplicate-evidence avoidance and authoritative rule precedence, helped revise procedural guidance 0.2, and the human approved `MEM-0001` in Sheets. Four subagent-level synthetic fixture responses were observed; no independent automated benchmark or policy edit was performed.

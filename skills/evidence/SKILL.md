@@ -1,6 +1,6 @@
 # Evidence Collector — draft skill
 
-**Owner:** Member 3. **Status:** Proposal; not deployed.
+**Owner:** Member 3. **Status:** Repository-maintained draft; corresponding Fleet subagent has been configured and tested. This file is NOT a native Fleet export.
 
 ## Goal
 Extract and structure evidence from synthetic shipment claim emails, attachments and photos without fabricating missing facts.
@@ -22,3 +22,7 @@ Extract and structure evidence from synthetic shipment claim emails, attachments
 
 ## Handoff
 Output an evidence record with field-level provenance and an explicit list of limitations. The Assessment Agent consumes this record.
+
+## Verified deployment note (26 November)
+
+The Fleet evidence-collector subagent was invoked for `CLM-0004` and correctly found no inspected photos or other documents; the customer report alone is an allegation. This draft is not proof of automatic photo ingestion from email.
